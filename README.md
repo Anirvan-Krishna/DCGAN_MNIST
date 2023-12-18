@@ -29,7 +29,7 @@ To train the DCGAN model on the MNIST dataset, run the training script `train_dc
 
 To train the images, open cmd in the model directory and type:
 ```bash
-python train_dcgan.py
+python train.py
 ```
 
 The image results are taken using Tensorboard. To open tensorboard, type:
