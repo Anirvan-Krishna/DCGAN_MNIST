@@ -27,9 +27,16 @@ To train the DCGAN model on the MNIST dataset, run the training script `train_dc
 #### DCGAN Generated Images
 ![Fake](images/fake.png)
 
+To train the images, open cmd in the model directory and type:
 ```bash
 python train_dcgan.py
 ```
+
+The image results are taken using Tensorboard. To open tensorboard, type:
+```bash
+tensorboard --logdir=runs
+```
+
 ## Model Architecture
 The DCGAN consists of two main components:
 
