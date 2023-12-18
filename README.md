@@ -22,10 +22,10 @@ The code provided here includes:
 To train the DCGAN model on the MNIST dataset, run the training script `train_dcgan.py`. The script will automatically download the MNIST dataset if not available locally and start the training process. In this sample code, the model is trained for 5 epochs. The results are as follows:
 
 #### Real Images of MNIST Dataset:
-[Real](images/real.png)
+![Real](images/real.png)
 
 #### DCGAN Generated Images
-[Fake](images/fake.png)
+![Fake](images/fake.png)
 
 ```bash
 python train_dcgan.py
