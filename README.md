@@ -19,7 +19,13 @@ The code provided here includes:
 
 ### Training
 
-To train the DCGAN model on the MNIST dataset, run the training script `train_dcgan.py`. The script will automatically download the MNIST dataset if not available locally and start the training process.
+To train the DCGAN model on the MNIST dataset, run the training script `train_dcgan.py`. The script will automatically download the MNIST dataset if not available locally and start the training process. In this sample code, the model is trained for 5 epochs. The results are as follows:
+
+#### Real Images of MNIST Dataset:
+[Real](images/real.png)
+
+#### DCGAN Generated Images
+[Fake](images/fake.png)
 
 ```bash
 python train_dcgan.py
@@ -31,7 +37,8 @@ Generator: This network takes random noise as input and generates images.
 Discriminator: This network discriminates between real and generated images.
 The architecture details for both components are available in the respective Python files: dcgan.py.
 
-
+![Generator](images/architecture.png)
+The above image is a representation of Generator Network of DCGAN (_Image taken from DCGAN paper_)
 
 ## Testing
 To ensure that the model components (Generator and Discriminator) function correctly, there are test functions available in the script dcgan.py. Uncomment the test() function calls in the script to perform the tests.
